@@ -1,0 +1,52 @@
+body {
+  background-color: #adffb0;
+  height: 95vh;
+}
+
+.conteiner {
+  position: absolute;
+  left: 400px;
+  top: 200px;
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  background-color: #e0ffe1;
+}
+
+.slider {
+  position: absolute;
+  left: 50px;
+  top: 95px;
+  width: 200px;
+  height: 10px;
+  padding: 10px 0;
+}
+
+.square {
+  position: absolute;
+  top: 0px;
+  width: 200px;
+  height: 10px;
+  background-color: #69ff6e;
+  border-radius: 20px;
+}
+
+.circle {
+  position: absolute;
+  top: 0px;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #014703;
+}
+
+.numbers {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.result {
+  position: absolute;
+  top: -40px;
+}
